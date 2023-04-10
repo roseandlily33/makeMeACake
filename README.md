@@ -8,7 +8,7 @@ I was making a cheatsheat for forms with the different types of inputs and it al
 Coming Soon
 
 ## Deployed Link:
-Coming Soon
+https://roseandlily33.github.io/makeMeACake/
 
 ## Technologies:
 HTML, CSS, Pure.css, Google Fonts
