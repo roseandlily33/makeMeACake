@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Dancing+Script:wght@600&display=swap');
+:root {
+    --mainFont: 'Bona Nova', serif;
+    --headFont: 'Dancing Script', cursive;
+    --peach: #aa4b29;
+    --darkBrown: #642712;
+    --black: #221007;
+    --cream: #b18457;
+    --green: #a8ac63;
+    --background: #efe5e5;
+    --white: #f1ebeb;
+}
+#aboutUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em;
+    padding: 3em;
+    background-color: var(--white);
+    border-radius: 15px;
+}
+

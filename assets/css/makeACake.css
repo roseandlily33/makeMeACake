@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Dancing+Script:wght@600&display=swap');
+:root {
+    --mainFont: 'Bona Nova', serif;
+    --headFont: 'Dancing Script', cursive;
+    --peach: #aa4b29;
+    --darkBrown: #642712;
+    --black: #221007;
+    --cream: #b18457;
+    --green: #a8ac63;
+    --background: #efe5e5;
+    --white: #e6e6e6;
+}
+ main{
+    display: flex;
+    text-align: center;
+    padding: 2em;
+ }
+ section{
+    text-align: center;
+    color: var(--darkBrown);
+
+ }
+ #makeMe{
+    padding: 1em;
+ }
+ #makeMe h1{
+    font-family: var(--headFont);
+    font-size: 4em;
+ }
+ #makeMe h2{
+    font-size: 1.2em;
+ }
+ #formCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+    margin-inline: 6em;
+    margin-block: 3em;
+
+    
+ }
+ #firstForm{
+   padding: 2em;
+ }
+ .dessert{
+    padding: 1.5em;
+ }
+ #btnSub{
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--green);
+    color: var(--white);
+    padding: 1em;
+ }

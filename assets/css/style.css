@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Dancing+Script:wght@600&display=swap');
+
+:root {
+    --mainFont: 'Bona Nova', serif;
+    --headFont: 'Dancing Script', cursive;
+    --peach: #aa4b29;
+    --darkBrown: #642712;
+    --black: #221007;
+    --cream: #b18457;
+    --green: #a8ac63;
+    --background: #F7F5F0;
+    --white: #e6e6e6;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background);  
+    font-family: var(--mainFont);
+}
+nav{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    height: 5em;
+}
+#title{
+    display: flex;
+    align-items: center;
+}
+#title h1{
+    font-family: var(--headFont);
+    margin: 1em;
+    font-size: 2.5em;
+    color: var(--darkBrown);
+}
+#tabs{
+    display: flex;
+    align-items: center;
+}
+#tabs > ul{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+#tabs a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.5em;
+    margin-inline: 0.6em;
+    color: var(--black);
+    font-size: 1.3em;
+}
+#tabs > ul  > li > a:hover{
+    color: var(--peach);
+}
+.logo{
+    font-family: var(--headFont);
+    color: var(--darkBrown);
+
+}
+a, .logo{
+    text-decoration: none;
+}
+
+footer{
+    background-color: var(--cream);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+}
+#list1, #list2{
+    padding: 0.5em;
+    list-style-type: none;
+}
+#list1 li, #list2 li{
+    padding: 0.5em;
+    font-size: 1em;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+.third h3{
+    color: var(--darkBrown);
+    font-family: var(--headFont);
+    text-align: center;
+    font-size: 1.5em;
+}
+.third button{
+    background-color: var(--background);
+    color: var(--darkBrown);
+}
+.third button, .third input{
+    padding-block: 0.7em;
+    padding-inline: 1.5em;
+    border-radius: 25px; border: none;
+    text-align: center;
+}

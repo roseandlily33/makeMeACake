@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Pure.CS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css"/>
+    <link rel="stylesheet" href="/assets/css/makeACake.css" />
+    <title>Make A Cake</title>
+</head>
+<body>
+    <nav class="pure-u-g">
+        <div id="title" class="pure-u-1-2">
+       <a href="/index.html"><h1 class="logo">Rose & Lily Bakery</h1> </a>
+    </div>
+        <div id="tabs" class="pure-u-1-2"> 
+            <ul>
+                <a href="/assets/html/makeACake.html"><li>Order</li></a>
+               <a href="/assets/html/locations.html"> <li>Locations</li></a>
+               <a href="/assets/html/aboutUs.html"><li>About Us</li></a>
+            </ul>
+        </div>
+    </nav>
+    <section id="makeMe">
+        <h1>Make A Cake!</h1>
+        <h2>Select the options to make your own custom cake</h2>
+    </section>
+
+
+    <div id="formCont">
+      <!--Dropdown Menu-->
+     <form action="submit.html" method="POST" >
+        <section class="dessert" id="firstForm">
+            <label for="volume">What flavour of cake would you like?</label>
+            <select name="flavour" id="flavour">
+            <option value="chocolate">Chocolate</option>
+            <option value="lemon">Lemon</option>
+            <option value="birthdayCake">Birthday Cake</option>
+            <option value="vanilla">Vanilla</option>
+        </select>
+    </form>
+      
+
+    <!--Basic textbox with title-->
+    <form action="submit.html" method="POST">
+        <section class="dessert">
+            <label for="cake">What would you like your cake to say?</label>
+            <input type="text" name="cake" id="cake">
+        </section>
+    </form>
+   
+                <!--Checkbox-->
+                <form action="submit.html" method="POST">
+                    <section class="toppings">
+                        <label for="toppings">What kind of toppings would you like?</label>
+                      <input type="checkbox" name="topping" id="sprinkles" value="sprinkles">
+                      <label for="sprinkles">Sprinkles</label>
+                      <input type="checkbox" name="topping" id="frosting" value="frosting">
+                      <label for="sprinkles">Frosting</label>
+                      <input type="checkbox" name="topping" id="nuts" value="nuts">
+                      <label for="sprinkles">Nuts</label>
+                    </section>
+                </form>
+                    <!--Radio-->
+                    <form action="submit.html" method="POST">
+                        <section class="dessert">
+                            <label for="size">What size would you like your cake?</label>
+                            <input type="radio" name="size" id="size" value="8">
+                            <label for="eight">8 Inch</label>
+                            <input type="radio" name="size" id="size" value="10">
+                            <label for="ten">10 Inch</label>
+                            <input type="radio" name="size" id="size" value="12">
+                            <label for="twelve">12 Inch</label>
+                        </section>
+                        </form>
+                        <button id="btnSub">Submit</button>
+                    </div>
+
+                        <footer class="pure-u-g">
+                            <div class="pure-u-1-4 first">
+                                <h1 class="logo">Rose & Lily Cupcakes</h1>
+                            </div>
+                            <div class="pure-u-1-4 second">
+                                <ul id="list1">
+                                    <li>How to order</li>
+                                    <li>Locations</li>
+                                    <li>FAQ</li>
+                                </ul>
+                            </div>
+                            <div class="pure-u-1-4">
+                                <ul id="list2">
+                                    <li>Terms of service</li>
+                                    <li>Contact Us</li>
+                                    <li>Careers</li>
+                                </ul>
+                            </div>
+                            <div class="pure-u-1-4 third">
+                                <h3>Be in the know!</h3>
+                                <input class="email" placeholder="Email address">
+                                <button>Sign Up!</button>
+                            </div>
+                        </footer>
+                       
+</body>
+</html>

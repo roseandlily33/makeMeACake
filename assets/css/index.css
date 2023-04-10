@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Dancing+Script:wght@600&display=swap');
+:root {
+    --mainFont: 'Bona Nova', serif;
+    --headFont: 'Dancing Script', cursive;
+    --peach: #aa4b29;
+    --darkBrown: #642712;
+    --black: #221007;
+    --cream: #b18457;
+    --green: #a8ac63;
+    --background: #efe5e5;
+    --white: #e6e6e6;
+}
+
+.back{
+ background: url(/assets/images/ruth-georgiev-dvmiNXMh9d8-unsplash.jpg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ height: 70vh;
+ background-position: center center;
+ padding-top: 3em;
+}
+.back h1{
+    color: var(--white);
+    text-align: center;
+    font-family: var(--headFont);
+    font-size: 3em;
+    padding-top: 1.5em;
+}
+.back p{
+    color: var(--white);
+    font-family: var(--mainFont);
+    text-align: center;
+    padding-inline: 2em;
+}
+#selection{
+    text-align: center;
+    font-family: var(--headFont);
+    margin-top: 1em;
+    font-size: 2.5em;
+}
+#imagesCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3em;
+    padding: 0.5em;
+    gap: 1em;
+}
+
+

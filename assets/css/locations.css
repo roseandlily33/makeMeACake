@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Dancing+Script:wght@600&display=swap');
+:root {
+    --mainFont: 'Bona Nova', serif;
+    --headFont: 'Dancing Script', cursive;
+    --peach: #aa4b29;
+    --darkBrown: #642712;
+    --black: #221007;
+    --cream: #b18457;
+    --green: #a8ac63;
+    --background: #efe5e5;
+    --white: #f1ebeb;
+}
+main, #hoursCont{
+    background-color: var(--white);
+    padding: 2em;
+    margin: 2em;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    font-family: var(--headFont);
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+    
+}
+#locationsCont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-evenly;
+}
+#location1, #location2, #location3, #location4, #location5{
+    width: 30%;
+    padding: 1em;
+    text-align: center;
+    background-color: var(--background);
+    border-radius: 10px;
+}
+img{
+    padding-bottom: 0.5em;
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+}
+h2{
+    font-size: 1.4em;
+}
+h3{
+    font-size: 1em;
+    padding: 0.2em;
+}
+p{
+    font-size: 1em;
+    padding: 0.4em;
+}
+#hoursCont h2{
+    text-align: center;
+    font-family: var(--headFont);
+    font-size: 1.8em;
+    padding: 1em;
+}
+#hoursCont ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    text-align: center;
+
+}
+#hoursCont li{
+    list-style-type: none;
+    font-size: 1.3em;
+    padding: 0.6em;
+    
+}
